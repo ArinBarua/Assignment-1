@@ -175,3 +175,30 @@ nav {
     color: #FFC239;
     background-color: #FFFFFF;
 }
+
+.vision-qoute{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+
+.qoute-title{
+    display: flexbox;
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+#position{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+}
