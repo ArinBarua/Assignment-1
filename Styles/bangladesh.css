@@ -331,6 +331,43 @@ nav {
     color: #FFFFFF;
 }
 
+.donate-form-contaienr{
+    display: inline;
+    gap: 20px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#Amount{
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-inline: 0px 160px;
+    background-color: #FFFFFF;
+}
+
+#form-btn{
+    font-size: 16px;
+    font-weight: 600;
+    width: 15%;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+/* Subscribe Style */
 .subscribe-content{
     padding: 0px 160px;
     align-items: center;
