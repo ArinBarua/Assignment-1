@@ -1,10 +1,14 @@
-
+/* General style */
 .fira-sans-normal{
   font-family: "Fira Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+body{
+    background-color: #F5F5F5;
 }
 
 /* nav style */
@@ -65,4 +69,109 @@ nav {
     border-radius: 8px;
     padding: 17px 34px;
     background-color: #006A50;
+}
+
+/* Vision style */
+.vision-content{
+    margin: 100px 160px;
+}
+
+.body-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.body-description{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-container{
+    display: flex;
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#secondary-vision-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    /* margin: 20px, 16px, 16px, 0px; */
+    padding: 24px;
+    border-radius: 16px;
+}
+
+#secondary-vision-2{
+    background-color: #C6E4D6;
+    /* margin: 16px, 16px, 16px, 16px; */
+    padding: 24px;
+    border-radius: 16px;
+}
+
+#secondary-vision-3{
+    background-color: #F7EBCF;
+    /* margin: 16px, 0px, 16px, 16px; */
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.secondary-vision-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.secondary-vision-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: left;
+}
+
+.vision-btn-1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    cursor: pointer;
+}
+
+.vision-btn-1:hover{
+    color: #5490F5;
+    background-color: #FFFFFF;
+}
+
+.vision-btn-2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #09A15C;
+    cursor: pointer;
+}
+
+.vision-btn-2:hover{
+    color: #09A15C;
+    background-color: #FFFFFF;
+}
+
+.vision-btn-3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color: #FFC239;
+    cursor: pointer;
+}
+
+.vision-btn-3:hover{
+    color: #FFC239;
+    background-color: #FFFFFF;
 }
