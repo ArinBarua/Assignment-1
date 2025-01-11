@@ -361,11 +361,17 @@ nav {
     color: #FFFFFF;
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 1px solid #006A50;
     border-radius: 4px;
     cursor: pointer;
     
 }
+
+#form-btn:hover{
+    color: #006A50;
+    background-color: #FFFFFF;
+}
+
 
 /* Subscribe Style */
 .subscribe-content{
@@ -380,4 +386,43 @@ nav {
     background-color: #FFFFFF;
     border-radius: 24px;
     margin-top: 32px;
+    background-color: #C6E4D6;
+}
+
+.form-2{
+    display: flex;
+    gap: none;
+    /* margin-left: 160px;
+    margin-right: 160px; */
+}
+
+#subscribe-field{
+    width: 85%;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    display: flex;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    text-align: left;
+    margin-inline: 0px 160px;
+    background-color: #FFFFFF;
+}
+
+#subscribe-btn{
+    font-size: 16px;
+    font-weight: 600;
+    width: 15%;
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #006A50;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#subscribe-btn:hover{
+    color: #006A50;
+    background-color: #FFFFFF;
 }
